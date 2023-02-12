@@ -170,3 +170,98 @@
 //    console.log(count)
 
 
+               // Arrayda O'xshash elementlar
+
+//    let nums = [4,5,6,7,5]
+
+//    for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//         if(nums[i] == nums[j]){
+//             console.log("nums[" + i + "]: " + nums[j] + " =  nums[" + j + "]" + nums[j])
+//         }
+//     }
+//    }
+
+//    console.log()
+
+
+              // 2 ta arrayda o'xshash elementlar
+
+//    let nums1 = [4,5,6,7,5]
+//    let nums2 = [11,90,72,7]
+
+//    for (let i = 0; i < nums1.length; i++) {
+//     for (let j = 0; j < nums2.length; j++) {
+//        if(nums1[i] == nums2[j]){
+//         console.log(("nums1[" + i + "] :" + nums1[i] + " = nums2[" + j + "] :" + nums2[j]));
+//        }
+//     }
+//    }
+
+
+               // Arrayda o'xshashlarini olib tashlash
+
+//    let nums =  [1,3,4,1,5,3]    
+//    let arrSize = nums.length   
+
+//    for (let i = 0; i < arrSize; i++) {
+//     for (let j = i + 1; j < arrSize; j++) {
+//         if(nums[i] == nums[j]) {
+//             nums[j] = nums[arrSize - 1]
+//             arrSize--
+//         }   
+//     }
+//     console.log(nums,arrSize)
+//     break
+//    }
+
+
+
+               // O'sish bo'yicha tartiblash
+
+//    let nums = [2,90,4,22,1,5,11] 
+
+
+//  1-usul:  console.log(nums.sort((a,b) => a - b))
+
+//  2-usul:  for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//         if(nums[i] > nums[j]){
+//             let temp = nums[i]
+//             nums[i] = nums[j]
+//             nums[j] = temp
+//         }
+//     }
+// }
+
+// for (let i = 0; i < nums.length; i++) {
+//     console.log(nums[i])
+    
+// }
+  
+
+             // Eng katta 2chi element
+
+//    let nums = [1,2,6,4,7,5] 
+
+//     nums.sort((a,b) => b - a)
+//     for (let i = 0; i < nums.length; i++) {
+//         console.log(nums[1])
+//         break
+//     }
+
+
+             // Array elementlar yig'indisi a ga tengmi?
+
+    //    let a =[1,2,3,7,4] 
+    //    let b =[1,2,3,7,4] 
+    //    let temp = true
+
+    //    for (let i = 0; i < a.length; i++) {
+    //     if (a[i] != b[i]) {
+    //         temp = false;
+    //     }
+    //     console.log(temp)
+    //     break
+    // }
+
